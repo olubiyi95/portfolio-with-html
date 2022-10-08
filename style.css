@@ -185,18 +185,26 @@ body .hero-showcase .hero-showcase-content p{
 }
 
 @media only screen and (max-width: 550px) {
-  body .hero-showcase .hero-showcase-content p {
-    font-size: 1.5rem;
-    line-height: 2.2rem;
+  body .hero-showcase{
+    font-size: 1.3rem!important;
+    line-height: 2.0rem;
+   
+    width: auto!important;
     /* text-align: center; */
   }
+  .hero-showcase-content p {
+    font-size: 1.3rem!important;
+  }
 }
-@media only screen and (max-width: 400px) {
-  body .hero-showcase .hero-showcase-content p {
+@media only screen and (max-width: 420px) {
+  body .hero-showcase  {
     font-size: 1.2rem!important;
     line-height: 1.9rem;
-    
-    /* text-align: center; */
+  
+    width: auto!important;
+  }
+  .hero-showcase-content p {
+    font-size: 1.3rem!important;
   }
 }
 
