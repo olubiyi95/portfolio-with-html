@@ -12,7 +12,16 @@ $('.owl-hero-slide').owlCarousel({
         stagePadding: 0,
         smartSpeed: 450,
         dots: false,
-
+        responsiveClass: true,
+        responsive:{
+                0:{
+                    items: 1
+                    },
+                    
+                600:{
+                    items: 1
+                    },
+                }
 });
 
 

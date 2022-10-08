@@ -188,16 +188,14 @@ body .hero-showcase .hero-showcase-content p{
   body .hero-showcase .hero-showcase-content p  {
     font-size: 1.2rem!important;
     line-height: 1.9rem;
-  }
-}
-@media only screen and (max-width: 420px) {
-  body .hero-showcase .hero-showcase-content p  {
-    font-size: 1.2rem!important;
-    line-height: 1.9rem;
+    width: 90%;
+    padding: 0 15px 0 0;
+   
   }
 }
 
-/* Project Section */
+
+/* Project Sect ion */
 body .main-project-section {
     padding-top: 50px;
     /* overflow: hidden; */
