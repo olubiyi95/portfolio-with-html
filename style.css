@@ -29,7 +29,7 @@ body {
   line-height: 1.6;
   background: #f8f9fa !important;
   position: relative;
-
+letter-spacing: normal;
 }
 
 
@@ -188,8 +188,17 @@ body .hero-showcase .hero-showcase-content p{
   body .hero-showcase .hero-showcase-content p  {
     font-size: 1.2rem!important;
     line-height: 1.9rem;
-    width: 90%;
-    padding: 0 15px 0 0;
+    width: fit-content!important;
+    padding: 0 10px 0 0;
+   
+  }
+}
+@media only screen and (max-width: 380px) {
+  body .hero-showcase .hero-showcase-content p  {
+    font-size: 1.2rem!important;
+    line-height: 1.9rem;
+    width: fit-content!important;
+    padding: 0 10px 0 0;
    
   }
 }
