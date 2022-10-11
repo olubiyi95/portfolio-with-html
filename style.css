@@ -112,7 +112,7 @@ body .hero-showcase {
   position: relative;
   overflow: hidden;
   width: 100%;
-  min-height: 70vh;
+  min-height: 90vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -147,6 +147,7 @@ body .inner-banners h1{
 @media only screen and (max-width: 550px) {
   body .hero-showcase .hero-showcase-content {
     top: 200px;
+    min-height: 80vh;
   }
 }
 
@@ -237,7 +238,7 @@ body .main-project-section .project-entry{
     border-radius: 30px;
     background: #fff;
     min-height: 500px;
-    margin: 50px 0 200px;
+    margin: 50px 0 50px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 
@@ -286,7 +287,6 @@ body .item-container {
     display: grid;
     height: 351px;
     margin: auto 0;
-
 }
 
 
@@ -298,7 +298,6 @@ body .section-ar {
       align-items: center;
       justify-content: center;
       text-align: left;
-
 }
 
 
@@ -324,6 +323,15 @@ body .section-ar h4 {
   body .section-ar h4 {
     font-size: 32px;
   }
+  body .item-container {
+    position: relative;
+    margin-top: 10px;
+    display: block;
+    width: 405px!important;
+    height: 551px;
+    margin-left: 25px;
+    top: 80px;
+}
 }
 
 .card-button {
@@ -337,13 +345,13 @@ body .section-ar h4 {
   color: #fff;
   text-align: center;
   transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
-  background-color: rgba(0, 0, 0, 0.2);
+  background: #0F0F0F !important;
   cursor: pointer;
 }
 
 .card-button:hover {
   color: #fff;
-  background-color: rgba(0, 0, 0, 0.8);
+  background: #0F0F0F !important;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
   transform: translateY(-3px);
 }
@@ -356,7 +364,7 @@ body .item-container {
     position: relative;
     margin-top: 10px;
     display: block;
-    width: 405px;
+    width: 605px;
     height: 551px;
     margin-left: 25px;
     top: 80px;
