@@ -103,6 +103,9 @@ body .bg-dark-black.scrolled {
 }
 
 
+/* LOADER */
+
+
 
 /* new page */
 body .hero-showcase {
@@ -364,7 +367,7 @@ body .item-container {
     position: relative;
     margin-top: 10px;
     display: block;
-    width: 605px;
+    width: 575px;
     height: 551px;
     margin-left: 25px;
     top: 80px;
